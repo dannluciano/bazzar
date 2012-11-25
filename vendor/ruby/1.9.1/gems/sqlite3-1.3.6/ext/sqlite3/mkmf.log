@@ -139,7 +139,7 @@ conftest.c: In function ‘t’:
 conftest.c:5:1: warning: implicit declaration of function ‘sqlite3_column_database_name’ [-Wimplicit-function-declaration]
 Undefined symbols for architecture x86_64:
   "_sqlite3_column_database_name", referenced from:
-      _t in ccGlgmul.o
+      _t in cc6AxbWF.o
 ld: symbol(s) not found for architecture x86_64
 collect2: error: ld returned 1 exit status
 checked program was:
