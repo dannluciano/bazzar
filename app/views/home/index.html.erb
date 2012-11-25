@@ -1,0 +1,14 @@
+<div class="px-total">
+	<% for product in @products %>
+	<div class="px-produtos">
+		<%= image_tag(product.picture_url, :size => "100x100") if product.picture? %>
+       	<div>
+		  <p>nome: <%= product.name %></p>
+		  <p>preco: <%= product.price %></p>
+                  <%= link_to "negociar",
+                      new_product_order_path(product), :class => "btn btn-small" %>
+        </div>
+	</div>
+	<% end %>
+	<div class="clear"></div>
+</div>
